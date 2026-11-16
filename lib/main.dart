@@ -8,6 +8,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:maixs_utils/util/utils.dart';
 import 'package:sufenbao/bindCard/addCard.dart';
+import 'package:sufenbao/csj/csj_reward_page.dart';
 import 'package:sufenbao/dy/dy_detail_page.dart';
 import 'package:sufenbao/index/Index.dart';
 import 'package:sufenbao/index/local_page.dart';
@@ -126,6 +127,7 @@ class SfbApp extends StatelessWidget {
       '/settings': (BuildContext context) => Settings(arg),
       '/me': (BuildContext context) => MySelfPage(),
       '/pointsMall': (BuildContext context) => PointsMallPage(arg),
+      '/csjReward': (BuildContext context) => const CsjRewardPage(),
       '/pointsMallDetail': (BuildContext context) => PointsMallDetail(arg),
       '/createOrder': (BuildContext context) => CreateOrder(arg),
       '/addressList': (BuildContext context) => AddressList(data: arg),

@@ -429,6 +429,17 @@ class _MySelfPageState extends State<MySelfPage>
       ),
       PWidget.container(Column(children: <Widget>[
           SelectTextItem(
+              title: '看视频赚积分',
+              content: '观看广告领积分',
+              onTap: () {
+                personalNotifier.value = false;
+                onTapLogin(context, '/csjReward');
+              },
+              leading: Icon(Icons.ondemand_video, size: 20, color: Colors.black)),
+        ]), {'br': 8, 'pd': [0, 1, 8,8],}
+      ),
+      PWidget.container(Column(children: <Widget>[
+          SelectTextItem(
               title: '我的收藏',
               onTap: () {
                 onTapLogin(context, '/collectPage');

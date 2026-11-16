@@ -95,6 +95,8 @@
 	<string>您没有开启相册权限，开启后可用于设置头像、身份识别</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>您没有开启相册权限，开启后可用于设置头像、身份识别</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>我们需要您的授权，以便向您展示更相关的广告内容，不会影响您使用其他功能</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>

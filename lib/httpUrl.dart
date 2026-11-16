@@ -211,6 +211,10 @@ abstract class API {
 
 
   static const userFeedbackAdd = '/user/feedback/add';
+
+  //穿山甲激励视频广告
+  static const csjConfig = '/csj/config';
+  static const csjReward = '/csj/reward';
 }
 
 final suClient = Dio(BaseOptions(

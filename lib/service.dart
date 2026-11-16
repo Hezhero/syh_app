@@ -1340,6 +1340,29 @@ abstract class BService {
     return res.data['data']??{};
   }
 
+  /// 穿山甲激励视频广告配置（appId / 广告位 / 奖励规则）
+  static Future<Map> csjConfig() async {
+    await setAuthInfo();
+    var res = await suClient.get(
+      API.csjConfig,
+    );
+    return res.data['data'] ?? {};
+  }
+
+  /// 领取激励视频奖励
+  /// [transactionId] 本次展示的唯一标识，服务端据此幂等
+  static Future<Map> csjReward({required String transactionId, String? posId}) async {
+    await setAuthInfo();
+    var res = await suClient.post(
+      API.csjReward,
+      data: {
+        'transactionId': transactionId,
+        'posId': posId ?? '',
+      },
+    );
+    return res.data['data'] ?? {};
+  }
+
   static Future<Map> getEnergy() async {
     await setAuthInfo();
     var res = await suClient.get(

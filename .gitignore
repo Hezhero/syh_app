@@ -41,3 +41,7 @@ app.*.symbols
 
 # Obfuscation related
 app.*.map.json
+
+# Agent skills 本地 issue/规格草案（见 docs/agents/issue-tracker.md）
+.scratch/
+
