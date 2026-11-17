@@ -19,6 +19,7 @@ import 'package:maixs_utils/widget/paixs_widget.dart';
 import 'package:maixs_utils/widget/scaffold_widget.dart';
 import 'package:maixs_utils/widget/views.dart';
 import 'package:permission_handler/permission_handler.dart';
+import 'package:sufenbao/csj/csj_ad_manager.dart';
 import 'package:sufenbao/me/fans/fans_search_notifier.dart';
 import 'package:sufenbao/me/model/userinfo.dart';
 import 'package:sufenbao/me/select_text_item.dart';
@@ -76,6 +77,8 @@ class _MySelfPageState extends State<MySelfPage>
 
   Map userEnergy = {};
   bool loadingEnergy = true;
+  /// 激励视频入口是否展示：由 /csj/config 下发的 enabled 开关决定，关闭时不渲染入口
+  bool showCsjReward = false;
 
   @override
   void initState() {
@@ -145,11 +148,26 @@ class _MySelfPageState extends State<MySelfPage>
     await initUserFee();
     await initVipInfo();
     await Global.init();
+    // 激励视频入口随服务端开关显隐（GET /csj/config → enabled）
+    await _loadCsjRewardVisible();
     if(Global.isAndroid()) {
       await initNotice();
     }
     await getEnergy();
     return getTime();
+  }
+
+  /// 拉取激励视频开关，失败时默认隐藏入口（fail-closed）
+  Future<void> _loadCsjRewardVisible() async {
+    try {
+      await CsjAdManager.instance.loadConfig(force: true);
+    } catch (_) {
+      // loadConfig 内部已兜底返回 enabled=false，这里再兜一层避免入口误显
+    }
+    final visible = CsjAdManager.instance.enabled;
+    if (showCsjReward != visible) {
+      setState(() => showCsjReward = visible);
+    }
   }
   Future getEnergy() async {
     userEnergy = await BService.getEnergy();
@@ -427,6 +445,7 @@ class _MySelfPageState extends State<MySelfPage>
               leading: Icon(BaoIcons.shop, size: 20, color: Colors.black)),
         ]), {'br': 8, 'pd': [0, 1, 8,8],}
       ),
+      if(showCsjReward)
       PWidget.container(Column(children: <Widget>[
           SelectTextItem(
               title: '看视频赚积分',
