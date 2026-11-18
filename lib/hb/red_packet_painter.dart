@@ -1,11 +1,11 @@
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  */
 import 'dart:ui' as ui;
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:sufenbao/hb/red_packet_controller.dart';
+import 'package:sanyinghui/hb/red_packet_controller.dart';
 
 class RedPacketPainter extends CustomPainter{
 

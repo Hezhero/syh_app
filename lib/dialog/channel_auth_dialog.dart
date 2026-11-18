@@ -1,6 +1,6 @@
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  */
 /*
  * @discripe: 渠道授权弹窗
@@ -10,10 +10,10 @@ import 'package:flutter_alibc/alibc_model.dart';
 import 'package:flutter_alibc/flutter_alibc.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:maixs_utils/widget/paixs_widget.dart';
-import 'package:sufenbao/service.dart';
-import 'package:sufenbao/util/colors.dart';
-import 'package:sufenbao/util/alibc_init.dart';
-import 'package:sufenbao/util/toast_utils.dart';
+import 'package:sanyinghui/service.dart';
+import 'package:sanyinghui/util/colors.dart';
+import 'package:sanyinghui/util/alibc_init.dart';
+import 'package:sanyinghui/util/toast_utils.dart';
 
 import 'package:dio/dio.dart';
 import 'taobao_auth_error.dart';

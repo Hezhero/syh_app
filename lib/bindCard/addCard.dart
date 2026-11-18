@@ -1,6 +1,6 @@
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  */
 import 'package:awesome_dialog/awesome_dialog.dart';
 import 'package:flutter/cupertino.dart';
@@ -10,7 +10,7 @@ import 'package:maixs_utils/widget/paixs_widget.dart';
 import 'package:maixs_utils/widget/scaffold_widget.dart';
 import 'package:maixs_utils/widget/views.dart';
 import 'package:pinput/pinput.dart';
-import 'package:sufenbao/util/colors.dart';
+import 'package:sanyinghui/util/colors.dart';
 
 import '../service.dart';
 import '../util/global.dart';

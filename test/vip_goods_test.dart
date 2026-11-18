@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:sufenbao/vip/vip_goods.dart';
+import 'package:sanyinghui/vip/vip_goods.dart';
 
 void main() {
   test('VIPShop coupon price retains cents and leaves provider price intact', () {

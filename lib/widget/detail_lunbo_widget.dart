@@ -1,13 +1,13 @@
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  */
 import 'package:flutter/material.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
 import 'package:maixs_utils/widget/custom_scroll_physics.dart';
 import 'package:maixs_utils/widget/paixs_widget.dart';
 import 'package:maixs_utils/widget/photo_widget.dart';
-import 'package:sufenbao/service.dart';
+import 'package:sanyinghui/service.dart';
 
 import '../util/global.dart';
 import '../util/paixs_fun.dart';

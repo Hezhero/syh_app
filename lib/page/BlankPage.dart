@@ -3,8 +3,8 @@
 import 'package:flutter/material.dart';
 import 'package:maixs_utils/util/utils.dart';
 import 'package:maixs_utils/widget/scaffold_widget.dart';
-import 'package:sufenbao/service.dart';
-import 'package:sufenbao/util/global.dart';
+import 'package:sanyinghui/service.dart';
+import 'package:sanyinghui/util/global.dart';
 
 import '../util/login_util.dart';
 

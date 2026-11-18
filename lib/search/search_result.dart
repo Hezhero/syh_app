@@ -1,6 +1,6 @@
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  */
 import '../dy/dy_goods.dart';
 import '../vip/vip_goods.dart';
@@ -14,10 +14,10 @@ import 'package:maixs_utils/widget/my_custom_scroll.dart';
 import 'package:maixs_utils/widget/paixs_widget.dart';
 import 'package:maixs_utils/widget/scaffold_widget.dart';
 import 'package:maixs_utils/widget/views.dart';
-import 'package:sufenbao/search/model/search_param.dart';
-import 'package:sufenbao/search/search_bar_widget.dart';
-import 'package:sufenbao/service.dart';
-import 'package:sufenbao/util/global.dart';
+import 'package:sanyinghui/search/model/search_param.dart';
+import 'package:sanyinghui/search/search_bar_widget.dart';
+import 'package:sanyinghui/service.dart';
+import 'package:sanyinghui/util/global.dart';
 
 import '../util/custom.dart';
 import '../util/paixs_fun.dart';

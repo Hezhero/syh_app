@@ -1,10 +1,10 @@
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  */
 import 'package:flutter/material.dart';
 import 'package:maixs_utils/widget/paixs_widget.dart';
-import 'package:sufenbao/widget/aspect_ratio_image.dart';
+import 'package:sanyinghui/widget/aspect_ratio_image.dart';
 
 import '../util/paixs_fun.dart';
 

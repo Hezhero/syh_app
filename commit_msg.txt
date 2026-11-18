@@ -1,0 +1,13 @@
+refactor: 品牌全量替换为三盈会（app）
+
+按 ADR-0001 统一品牌与代码标识：
+- 苏分宝 -> 三盈会；sufenbao -> sanyinghui
+- Flutter 包名 pubspec name/description -> sanyinghui
+- Android applicationId / iOS BUNDLE_IDENTIFIER -> com.junchen.sanyinghui
+- 官网 -> syh.hzhero.cn；版权主体 -> 济南隽宸信息科技有限公司
+- LICENSE 移除原软著登记号
+- 原生MainActivity目录 com/mailvor/sufenbao -> com/junchen/sanyinghui
+- 代码生成器模板与 iOS storekit/entitlements 中的品牌字符串同步
+
+Flutter SDK 不在当前环境 PATH，未执行 flutter build；
+配置与源码引用已通过 grep 残留检查。

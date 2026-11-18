@@ -1,6 +1,6 @@
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  */
 library base;
 
@@ -23,10 +23,10 @@ import 'package:package_info_plus/package_info_plus.dart';
 import 'package:maixs_utils/util/utils.dart';
 import 'package:maixs_utils/widget/views.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:sufenbao/util/toast_utils.dart';
-import 'package:sufenbao/dialog/simple_text_dialog.dart';
-import 'package:sufenbao/service.dart';
-import 'package:sufenbao/util/swipe_to_dismiss_wrap.dart';
+import 'package:sanyinghui/util/toast_utils.dart';
+import 'package:sanyinghui/dialog/simple_text_dialog.dart';
+import 'package:sanyinghui/service.dart';
+import 'package:sanyinghui/util/swipe_to_dismiss_wrap.dart';
 
 import '../dialog/channel_auth_dialog.dart';
 import '../dialog/contet_parse_dialog.dart';
@@ -42,7 +42,7 @@ import '../widget/loading.dart';
 import 'launchApp.dart';
 import 'login_util.dart';
 
-const String APP_NAME = '苏分宝';
+const String APP_NAME = '三盈会';
 const String COMPANY_NAME = '';
 //todo 闪验appid
 const String SY_ANDROID_APP_ID = '';
@@ -88,7 +88,7 @@ class Global {
   static const privacyProtocolUrl = '$baseDomain/protocol';
   //todo 微信开放平台app id
   static const wxAppId = 'wx139d763ebb9a29e0';
-  static const wxUniversalLink = 'https://sufenbao.mailvor.cn/';
+  static const wxUniversalLink = 'https://sanyinghui.syh.hzhero.cn/';
 
   //todo 极光推送app key
   static const jpushAppKey = 'f4b96adeec4eb2a41d831551';

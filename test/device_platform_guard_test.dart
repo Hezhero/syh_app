@@ -1,6 +1,6 @@
 import 'package:device_info_plus_platform_interface/device_info_plus_platform_interface.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:sufenbao/util/global.dart';
+import 'package:sanyinghui/util/global.dart';
 
 /// 模拟 device_info_plus 在非 Android 平台（iOS）返回的设备信息。
 /// iOS 原生端只实现了 getDeviceInfo，返回的 map 里不含 board / manufacturer /

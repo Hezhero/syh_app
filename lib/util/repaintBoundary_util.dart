@@ -1,6 +1,6 @@
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  */
 import 'dart:io';
 import 'dart:typed_data';
@@ -13,7 +13,7 @@ import 'package:flutter/rendering.dart';
 import 'package:image_gallery_saver_plus/image_gallery_saver_plus.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:sufenbao/util/toast_utils.dart';
+import 'package:sanyinghui/util/toast_utils.dart';
 
 import 'global.dart';
 

@@ -1,6 +1,6 @@
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  */
 /*
  * @discripe: 拼多多授权
@@ -10,10 +10,10 @@ import 'package:flutter/services.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:maixs_utils/util/utils.dart';
 import 'package:maixs_utils/widget/paixs_widget.dart';
-import 'package:sufenbao/util/launchApp.dart';
-import 'package:sufenbao/util/toast_utils.dart';
-import 'package:sufenbao/service.dart';
-import 'package:sufenbao/util/colors.dart';
+import 'package:sanyinghui/util/launchApp.dart';
+import 'package:sanyinghui/util/toast_utils.dart';
+import 'package:sanyinghui/service.dart';
+import 'package:sanyinghui/util/colors.dart';
 import '../widget/loading.dart';
 
 class PddAuthDialog extends Dialog {

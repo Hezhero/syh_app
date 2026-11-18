@@ -1,13 +1,13 @@
 // import 'dart:html';
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  */
 
 import 'package:flutter/widgets.dart';
-import 'package:sufenbao/util/toast_utils.dart';
-import 'package:sufenbao/login/login_shanyan.dart';
-import 'package:sufenbao/util/global.dart';
+import 'package:sanyinghui/util/toast_utils.dart';
+import 'package:sanyinghui/login/login_shanyan.dart';
+import 'package:sanyinghui/util/global.dart';
 
 import '../me/listener/PersonalNotifier.dart';
 

@@ -4,9 +4,9 @@ import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:maixs_utils/util/utils.dart' as app_utils;
-import 'package:sufenbao/dy/dy_index_page.dart';
-import 'package:sufenbao/httpUrl.dart';
-import 'package:sufenbao/service.dart';
+import 'package:sanyinghui/dy/dy_index_page.dart';
+import 'package:sanyinghui/httpUrl.dart';
+import 'package:sanyinghui/service.dart';
 
 class CategoryAdapter implements HttpClientAdapter {
   bool categoryFails = true;

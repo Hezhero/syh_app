@@ -1,6 +1,6 @@
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  *
  */
 /*
@@ -8,7 +8,7 @@
  */
 import 'package:flutter/material.dart';
 import 'package:maixs_utils/widget/paixs_widget.dart';
-import 'package:sufenbao/util/launchApp.dart';
+import 'package:sanyinghui/util/launchApp.dart';
 
 import '../me/model/activity_info.dart';
 import '../util/paixs_fun.dart';

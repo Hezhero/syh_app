@@ -34,7 +34,7 @@ android {
         }
     }
     defaultConfig {
-        applicationId "com.mailvor.sufenbao"
+        applicationId "com.junchen.sanyinghui"
 
         minSdkVersion 24
         targetSdkVersion 37
@@ -52,13 +52,13 @@ android {
     signingConfigs {
         //todo 这里的证书自己创建，为了保证百川图片在测试环境可用，打开下面debug注释，开发和打包使用同样的证书
         debug {
-            keyAlias "mailvor.com"
+            keyAlias "syh.hzhero.cn"
             keyPassword "123456"
             storeFile file('../keystore/xxx.jks')
             storePassword "123456"
         }
         release {
-            keyAlias "mailvor.com"
+            keyAlias "syh.hzhero.cn"
             keyPassword "123456"
             storeFile file('../keystore/xxx.jks')
             storePassword "123456"
@@ -77,7 +77,7 @@ android {
     lint {
         disable 'InvalidPackage'
     }
-    namespace 'com.mailvor.sufenbao'
+    namespace 'com.junchen.sanyinghui'
     splits {
         abi {
             enable false          // 启用ABI拆分

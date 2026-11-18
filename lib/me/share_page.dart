@@ -1,6 +1,6 @@
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  */
 import 'package:clipboard/clipboard.dart';
 import 'package:flutter/material.dart';
@@ -10,8 +10,8 @@ import 'package:maixs_utils/widget/paixs_widget.dart';
 import 'package:maixs_utils/widget/scaffold_widget.dart';
 import 'package:maixs_utils/widget/views.dart';
 import 'package:qr_flutter/qr_flutter.dart';
-import 'package:sufenbao/util/repaintBoundary_util.dart';
-import 'package:sufenbao/widget/loading.dart';
+import 'package:sanyinghui/util/repaintBoundary_util.dart';
+import 'package:sanyinghui/widget/loading.dart';
 
 import '../dialog/invite_rule_dialog.dart';
 import '../service.dart';

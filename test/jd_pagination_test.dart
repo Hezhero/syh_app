@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:maixs_utils/model/data_model.dart';
-import 'package:sufenbao/service.dart';
+import 'package:sanyinghui/service.dart';
 
 void main() {
   test('JD search follows a nonconsecutive provider cursor', () {

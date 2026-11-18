@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:sufenbao/csj/csj_ad_manager.dart';
-import 'package:sufenbao/service.dart';
-import 'package:sufenbao/util/global.dart';
-import 'package:sufenbao/util/toast_utils.dart';
+import 'package:sanyinghui/csj/csj_ad_manager.dart';
+import 'package:sanyinghui/service.dart';
+import 'package:sanyinghui/util/global.dart';
+import 'package:sanyinghui/util/toast_utils.dart';
 
 /// 看视频赚积分
 ///

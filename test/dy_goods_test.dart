@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:maixs_utils/model/data_model.dart';
-import 'package:sufenbao/dy/dy_goods.dart';
-import 'package:sufenbao/service.dart';
+import 'package:sanyinghui/dy/dy_goods.dart';
+import 'package:sanyinghui/service.dart';
 
 void main() {
   test('CMS yuan prices and commissions are not divided or discounted again', () {

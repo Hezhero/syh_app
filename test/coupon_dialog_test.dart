@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:sufenbao/dialog/contet_parse_dialog.dart';
+import 'package:sanyinghui/dialog/contet_parse_dialog.dart';
 
 void main() {
   testWidgets('failed parse opens full search using the original share content', (tester) async {

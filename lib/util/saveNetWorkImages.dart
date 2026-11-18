@@ -1,6 +1,6 @@
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  */
 import 'dart:io';
 import 'dart:typed_data';
@@ -15,7 +15,7 @@ import 'package:permission_handler/permission_handler.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 /// 保存文件或图片到本地
 import 'package:image_gallery_saver_plus/image_gallery_saver_plus.dart';
-import 'package:sufenbao/Util/toast_utils.dart';
+import 'package:sanyinghui/Util/toast_utils.dart';
 
 class saveNetWorkImages {
   /// 保存图片到相册

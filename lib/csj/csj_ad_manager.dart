@@ -3,7 +3,7 @@ import 'dart:math';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter_pangle_ads/flutter_pangle_ads.dart';
-import 'package:sufenbao/service.dart';
+import 'package:sanyinghui/service.dart';
 
 /// 激励视频播放结果
 class CsjRewardResult {

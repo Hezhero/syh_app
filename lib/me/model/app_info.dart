@@ -1,8 +1,8 @@
-import 'package:sufenbao/me/model/activity_info.dart';
+import 'package:sanyinghui/me/model/activity_info.dart';
 
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  */
 class AppInfo {
   String kuCid = '';

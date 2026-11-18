@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:sufenbao/dialog/coupon_product.dart';
+import 'package:sanyinghui/dialog/coupon_product.dart';
 
 void main() {
   test('all five platforms expose the right detail route and product id', () {

@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:sufenbao/pdd/pdd_goods.dart';
+import 'package:sanyinghui/pdd/pdd_goods.dart';
 
 void main() {
   test('PDD uses yuan and subtracts coupon once', () {

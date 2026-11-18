@@ -3,7 +3,7 @@ import 'package:maixs_utils/model/data_model.dart';
 import 'package:maixs_utils/widget/anima_switch_widget.dart';
 import 'package:maixs_utils/widget/my_bouncing_scroll_physics.dart';
 import 'package:maixs_utils/widget/paixs_widget.dart';
-import 'package:sufenbao/service.dart';
+import 'package:sanyinghui/service.dart';
 
 import '../../util/colors.dart';
 import '../../util/global.dart';

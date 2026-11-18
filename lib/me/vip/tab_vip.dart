@@ -1,6 +1,6 @@
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  */
 import 'package:flutter/material.dart';
 import 'package:maixs_utils/model/data_model.dart';
@@ -8,9 +8,9 @@ import 'package:maixs_utils/widget/anima_switch_widget.dart';
 import 'package:maixs_utils/widget/paixs_widget.dart';
 import 'package:maixs_utils/widget/scaffold_widget.dart';
 import 'package:maixs_utils/widget/views.dart';
-import 'package:sufenbao/me/vip/vip.dart';
-import 'package:sufenbao/service.dart';
-import 'package:sufenbao/widget/tab_widget.dart';
+import 'package:sanyinghui/me/vip/vip.dart';
+import 'package:sanyinghui/service.dart';
+import 'package:sanyinghui/widget/tab_widget.dart';
 
 import '../../util/colors.dart';
 

@@ -1,6 +1,6 @@
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  */
 import 'dart:async';
 import 'dart:io';
@@ -11,8 +11,8 @@ import 'package:maixs_utils/util/utils.dart';
 import 'package:shanyan/shanYanResult.dart';
 import 'package:shanyan/shanYanUIConfig.dart';
 import 'package:shanyan/shanyan.dart';
-import 'package:sufenbao/service.dart';
-import 'package:sufenbao/util/login_util.dart';
+import 'package:sanyinghui/service.dart';
+import 'package:sanyinghui/util/login_util.dart';
 
 import '../util/global.dart';
 

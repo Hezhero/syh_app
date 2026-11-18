@@ -1,10 +1,10 @@
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  */
 import 'package:flutter/material.dart';
 import 'package:maixs_utils/widget/paixs_widget.dart';
-import 'package:sufenbao/me/styles.dart';
+import 'package:sanyinghui/me/styles.dart';
 
 class SelectTextItem extends StatelessWidget {
   const SelectTextItem({

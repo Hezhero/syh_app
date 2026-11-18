@@ -1,6 +1,6 @@
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  */
 import 'dart:async';
 import 'dart:convert';
@@ -15,12 +15,12 @@ import 'package:maixs_utils/widget/paixs_widget.dart';
 import 'package:maixs_utils/widget/scaffold_widget.dart';
 import 'package:maixs_utils/widget/views.dart';
 import 'package:shake_animation_widget/shake_animation_widget.dart';
-import 'package:sufenbao/index/widget/banner_widget.dart';
-import 'package:sufenbao/index/widget/tiles_widget.dart';
-import 'package:sufenbao/me/model/activity_info.dart';
-import 'package:sufenbao/service.dart';
-import 'package:sufenbao/util/custom.dart';
-import 'package:sufenbao/widget/CustomWidgetPage.dart';
+import 'package:sanyinghui/index/widget/banner_widget.dart';
+import 'package:sanyinghui/index/widget/tiles_widget.dart';
+import 'package:sanyinghui/me/model/activity_info.dart';
+import 'package:sanyinghui/service.dart';
+import 'package:sanyinghui/util/custom.dart';
+import 'package:sanyinghui/widget/CustomWidgetPage.dart';
 
 import '../login/login_shanyan.dart';
 import '../me/listener/WxPayNotifier.dart';

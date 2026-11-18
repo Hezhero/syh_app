@@ -1,6 +1,6 @@
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  */
 import 'package:flutter/material.dart';
 import 'package:fluwx/fluwx.dart';
@@ -54,7 +54,7 @@ class _AuthPageState extends State<AuthPage> with TickerProviderStateMixin {
       authed = true;
       //返回的res.code就是授权code
       WeChatAuthResponse authResponse = res;
-      if (authResponse.state == 'sufenbao_binding' &&
+      if (authResponse.state == 'sanyinghui_binding' &&
           authResponse.errCode == 0 &&
           authResponse.code != null) {
           wechatBinding(authResponse.code);
@@ -202,7 +202,7 @@ class _AuthPageState extends State<AuthPage> with TickerProviderStateMixin {
           if(wxProfile.isNotEmpty) {
             ToastUtils.showToast('微信已授权');
           } else {
-            fluwx.authBy(which: NormalAuth(scope: "snsapi_userinfo", state: "sufenbao_binding"));
+            fluwx.authBy(which: NormalAuth(scope: "snsapi_userinfo", state: "sanyinghui_binding"));
           }
         },
       ),

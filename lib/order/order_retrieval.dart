@@ -1,13 +1,13 @@
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  */
 import 'package:flutter/material.dart';
 import 'package:maixs_utils/widget/paixs_widget.dart';
 import 'package:maixs_utils/widget/scaffold_widget.dart';
 import 'package:maixs_utils/widget/views.dart';
-import 'package:sufenbao/util/toast_utils.dart';
-import 'package:sufenbao/service.dart';
+import 'package:sanyinghui/util/toast_utils.dart';
+import 'package:sanyinghui/service.dart';
 
 import '../me/listener/PersonalNotifier.dart';
 import '../util/colors.dart';

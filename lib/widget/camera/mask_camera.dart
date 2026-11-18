@@ -1,6 +1,6 @@
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  */
 import 'dart:async';
 import 'dart:io';
@@ -8,7 +8,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:sufenbao/widget/camera/result.dart';
+import 'package:sanyinghui/widget/camera/result.dart';
 
 import 'inside_line.dart';
 import 'main_crop.dart';

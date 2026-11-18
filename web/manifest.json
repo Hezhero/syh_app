@@ -1,11 +1,11 @@
 {
-    "name": "sufenbao",
-    "short_name": "sufenbao",
+    "name": "sanyinghui",
+    "short_name": "sanyinghui",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "sufenbao.",
+    "description": "sanyinghui.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

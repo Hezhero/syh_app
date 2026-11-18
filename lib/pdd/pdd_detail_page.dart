@@ -1,6 +1,6 @@
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  */
 import 'pdd_goods.dart';
 import 'pdd_promotion.dart';
@@ -12,9 +12,9 @@ import 'package:maixs_utils/widget/my_custom_scroll.dart';
 import 'package:maixs_utils/widget/paixs_widget.dart';
 import 'package:maixs_utils/widget/scaffold_widget.dart';
 import 'package:maixs_utils/widget/views.dart';
-import 'package:sufenbao/util/custom.dart';
-import 'package:sufenbao/widget/product_info_img_widget.dart';
-import 'package:sufenbao/service.dart';
+import 'package:sanyinghui/util/custom.dart';
+import 'package:sanyinghui/widget/product_info_img_widget.dart';
+import 'package:sanyinghui/service.dart';
 
 import '../util/toast_utils.dart';
 import '../util/colors.dart';

@@ -1,6 +1,6 @@
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  */
 import 'dart:io';
 
@@ -10,8 +10,8 @@ import 'package:flutter/material.dart';
 import 'package:image_cropper/image_cropper.dart';
 import 'package:maixs_utils/util/utils.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:sufenbao/util/colors.dart';
-import 'package:sufenbao/util/global.dart';
+import 'package:sanyinghui/util/colors.dart';
+import 'package:sanyinghui/util/global.dart';
 import 'package:wechat_assets_picker/wechat_assets_picker.dart';
 
 import '../service.dart';

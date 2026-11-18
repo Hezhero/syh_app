@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:sufenbao/util/single_flight.dart';
+import 'package:sanyinghui/util/single_flight.dart';
 
 void main() {
   test('concurrent callers share the request, a later refresh runs again', () async {

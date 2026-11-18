@@ -2,7 +2,7 @@
 
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  */
 import 'package:awesome_dialog/awesome_dialog.dart';
 import 'package:flutter/gestures.dart';
@@ -13,7 +13,7 @@ import 'package:maixs_utils/widget/paixs_widget.dart';
 import 'package:maixs_utils/widget/scaffold_widget.dart';
 import 'package:maixs_utils/widget/views.dart';
 import 'package:sign_in_with_apple/sign_in_with_apple.dart';
-import 'package:sufenbao/service.dart';
+import 'package:sanyinghui/service.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../dialog/simple_privacy_dialog.dart';
@@ -58,7 +58,7 @@ class _LoginFirstState extends State<LoginFirst> {
     if (res != null && res is WeChatAuthResponse) {
       //返回的res.code就是授权code
       WeChatAuthResponse authResponse = res;
-      if (authResponse.state == 'sufenbao_login' &&
+      if (authResponse.state == 'sanyinghui_login' &&
           authResponse.errCode == 0 && authResponse.code != null) {
           wechatAppLogin(authResponse.code);
       }
@@ -217,7 +217,7 @@ class _LoginFirstState extends State<LoginFirst> {
       }
     } else {
       //微信app登录
-      await fluwx.authBy(which: NormalAuth(scope: "snsapi_userinfo", state: "sufenbao_login"));
+      await fluwx.authBy(which: NormalAuth(scope: "snsapi_userinfo", state: "sanyinghui_login"));
     }
   }
 

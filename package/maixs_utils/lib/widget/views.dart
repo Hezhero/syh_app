@@ -1522,7 +1522,7 @@ Widget buildTitleRight({
 Widget buildTwoText({
   String leftText = '5级',
   String nullValue = '暂无',
-  dynamic rightText = '苏州迈沃通信有限公司',
+  dynamic rightText = '济南隽宸信息科技有限公司',
   Color leftColor = Colors.black,
   Color rightColor = Colors.grey,
 }) {

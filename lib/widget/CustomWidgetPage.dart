@@ -1,6 +1,6 @@
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  */
 import '../dy/dy_goods.dart';
 import '../vip/vip_goods.dart';
@@ -11,9 +11,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:maixs_utils/widget/paixs_widget.dart';
 import 'package:shimmer/shimmer.dart';
-import 'package:sufenbao/util/toast_utils.dart';
-import 'package:sufenbao/util/custom.dart';
-import 'package:sufenbao/util/tao_util.dart';
+import 'package:sanyinghui/util/toast_utils.dart';
+import 'package:sanyinghui/util/custom.dart';
+import 'package:sanyinghui/util/tao_util.dart';
 
 import '../dialog/card_sign_dialog.dart';
 import '../dy/dy_detail_page.dart';

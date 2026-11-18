@@ -1,6 +1,6 @@
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  */
 import 'dart:ui';
 
@@ -14,8 +14,8 @@ import 'package:maixs_utils/widget/my_custom_scroll.dart';
 import 'package:maixs_utils/widget/paixs_widget.dart';
 import 'package:maixs_utils/widget/scaffold_widget.dart';
 import 'package:maixs_utils/widget/views.dart';
-import 'package:sufenbao/util/global.dart';
-import 'package:sufenbao/util/toast_utils.dart';
+import 'package:sanyinghui/util/global.dart';
+import 'package:sanyinghui/util/toast_utils.dart';
 import 'package:vector_math/vector_math.dart' as vector;
 
 import '../../../service.dart';

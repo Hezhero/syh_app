@@ -1,11 +1,11 @@
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  */
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:sufenbao/util/toast_utils.dart';
+import 'package:sanyinghui/util/toast_utils.dart';
 
 import '../util/global.dart';
 

@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.mailvor.sufenbao">
+    package="com.junchen.sanyinghui">
     <queries>
         <package android:name="com.taobao.taobao" />
         <package android:name="com.jingdong.app.mall" />
@@ -102,7 +102,7 @@
 
     <application
         android:name="${applicationName}"
-        android:label="苏分宝"
+        android:label="三盈会"
         android:icon="@mipmap/ic_launcher"
         android:usesCleartextTraffic="true"
         tools:replace="android:label,android:allowBackup"

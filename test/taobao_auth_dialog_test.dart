@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:sufenbao/dialog/taobao_auth_error.dart';
+import 'package:sanyinghui/dialog/taobao_auth_error.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:sufenbao/dialog/channel_auth_dialog.dart';
+import 'package:sanyinghui/dialog/channel_auth_dialog.dart';
 
 void main() {
   testWidgets(

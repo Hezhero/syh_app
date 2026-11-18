@@ -1,12 +1,12 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:sufenbao/me/model/app_info.dart';
+import 'package:sanyinghui/me/model/app_info.dart';
 
 void main() {
   test('extracts CID from complete address and builds activity on configured host', () {
-    final info = AppInfo()..kuCid = 'http://jkj.mailvor.com/?cid=FazG6352';
+    final info = AppInfo()..kuCid = 'http://jkj.syh.hzhero.cn/?cid=FazG6352';
     expect(info.cmsCid, 'FazG6352');
     final activity = Uri.parse(info.cmsActivityUrl('dy_special')!);
-    expect(activity.host, 'jkj.mailvor.com');
+    expect(activity.host, 'jkj.syh.hzhero.cn');
     expect(activity.scheme, 'http');
     expect(activity.queryParameters['cid'], 'FazG6352');
     expect(activity.queryParameters['code'], 'FazG6352');

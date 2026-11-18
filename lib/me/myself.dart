@@ -1,6 +1,6 @@
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  */
 import 'dart:async';
 
@@ -19,14 +19,14 @@ import 'package:maixs_utils/widget/paixs_widget.dart';
 import 'package:maixs_utils/widget/scaffold_widget.dart';
 import 'package:maixs_utils/widget/views.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:sufenbao/csj/csj_ad_manager.dart';
-import 'package:sufenbao/me/fans/fans_search_notifier.dart';
-import 'package:sufenbao/me/model/userinfo.dart';
-import 'package:sufenbao/me/select_text_item.dart';
-import 'package:sufenbao/me/styles.dart';
-import 'package:sufenbao/service.dart';
-import 'package:sufenbao/util/bao_icons.dart';
-import 'package:sufenbao/util/toast_utils.dart';
+import 'package:sanyinghui/csj/csj_ad_manager.dart';
+import 'package:sanyinghui/me/fans/fans_search_notifier.dart';
+import 'package:sanyinghui/me/model/userinfo.dart';
+import 'package:sanyinghui/me/select_text_item.dart';
+import 'package:sanyinghui/me/styles.dart';
+import 'package:sanyinghui/service.dart';
+import 'package:sanyinghui/util/bao_icons.dart';
+import 'package:sanyinghui/util/toast_utils.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../page/product_details.dart';

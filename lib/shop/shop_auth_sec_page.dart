@@ -1,6 +1,6 @@
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  */
 import 'dart:async';
 import 'dart:io';
@@ -18,9 +18,9 @@ import 'package:maixs_utils/widget/views.dart';
 import 'package:maixs_utils/widget/widget_tap.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:sufenbao/service.dart';
-import 'package:sufenbao/shop/ali_face.dart';
-import 'package:sufenbao/util/pic_helper.dart';
+import 'package:sanyinghui/service.dart';
+import 'package:sanyinghui/shop/ali_face.dart';
+import 'package:sanyinghui/util/pic_helper.dart';
 
 import '../util/colors.dart';
 import '../util/global.dart';

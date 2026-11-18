@@ -1,10 +1,10 @@
 /**
  *  Copyright (C) 2018-2026
- *  All rights reserved, Designed By www.mailvor.com
+ *  All rights reserved, Designed By syh.hzhero.cn
  */
 
 import 'package:flutter/widgets.dart';
-import 'package:sufenbao/dy/dy_detail_page.dart';
+import 'package:sanyinghui/dy/dy_detail_page.dart';
 
 import '../../jd/jd_details_page.dart';
 import '../../page/product_details.dart';

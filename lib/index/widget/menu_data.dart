@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sufenbao/util/colors.dart';
+import 'package:sanyinghui/util/colors.dart';
 
 const List menuData = [
   [
@@ -42,7 +42,7 @@ const List menuData = [
       "url": "/elePage",
     },
     {
-      'img': 'https://mailvor.oss-cn-shanghai.aliyuncs.com/sufenbao/fuli4.png',
+      'img': 'https://junchen.oss-cn-shanghai.aliyuncs.com/sanyinghui/fuli4.png',
       'path': 'assets/images/menu/miaosha.gif',
       'title': '小样种草',
       'type': '1',
@@ -51,7 +51,7 @@ const List menuData = [
     },
     {
       'img':
-      'https://mailvor.oss-cn-shanghai.aliyuncs.com/sufenbao/cao.png',
+      'https://junchen.oss-cn-shanghai.aliyuncs.com/sanyinghui/cao.png',
       'title': '淘券',
       'path': 'assets/images/menu/5.gif',
       "type": "1",
